@@ -1,0 +1,137 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Roboto:wght@400;700&family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap");
+body {
+  color: #191919;
+  font-family: "Roboto";
+}
+ul {
+  list-style: none;
+}
+
+nav {
+  padding: 20px 140px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 216, 107);
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #191919;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: large;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar li:first-child {
+  margin-right: 20px;
+}
+
+.contact-us {
+  border: 1px solid #191919;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.page-one {
+  height: 580px;
+  padding: 20px 140px;
+  font-family: "Kaisei Decol", serif;
+  background-color: rgb(255, 216, 107);
+}
+
+.introduce {
+  font-size: 20px;
+  padding-top: 160px;
+  margin-left: 600px;
+}
+
+.introduce span:first-child {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-bottom: 20px;
+}
+
+.introduce p {
+  line-height: 40px;
+}
+
+.img img:first-child {
+  height: 600px;
+  position: absolute;
+  z-index: 5;
+}
+
+.img img:last-child {
+  height: 800px;
+  position: relative;
+  z-index: 1;
+  top: -150px;
+  left: 80px;
+}
+
+.page-two {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.page-two h1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.service-columns {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.service-column {
+  text-align: center;
+}
+
+.service-column i {
+  margin-bottom: 20px;
+  background-color: rgb(255, 253, 240);
+  padding: 24px;
+  border: 1px solid rgb(244, 236, 190);
+  border-radius: 50px;
+}
+
+.detail {
+  text-align: center;
+  margin-top: 80px;
+  text-decoration: underline;
+  color: rgb(213, 208, 195);
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+footer h5 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  line-height: 30px;
+  font-size: 12px;
+}
